@@ -959,6 +959,7 @@ default = ["webserver", "appserver", "dbserver"]
 FOR_EACH:
 
 provider "aws" {
+regon = ap-south-1
 }
 
 resource "aws_instance" "two" {
