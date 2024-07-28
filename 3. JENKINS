@@ -651,3 +651,18 @@ pipeline {
         }
     }
 }
+Tomcat port number change process:
+=================================
+vim /root/apache-tomcat-9.0.91/conf/server.xml
+change the port number
+sh apache-tomcat-9.0.91/bin/shutdown.sh
+sh apache-tomcat-9.0.91/bin/startup.sh
+check the public:port no
+
+Tomcat passward change process:
+===============================
+vim apache-tomcat-9.0.91/conf/tomcat-users.xml
+sh apache-tomcat-9.0.91/bin/shutdown.sh
+sh apache-tomcat-9.0.91/bin/startup.sh
+again login the tomcat server.
+
