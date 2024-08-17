@@ -24,7 +24,7 @@ MASTER NODE:
 
 WORKER NODE:
 KUBELET: its an agent used to communicate with master.
-KUBEPROXY: it deals with nlw.
+KUBEPROXY: it deals with network.
 POD: its a group of containers.
 
 
